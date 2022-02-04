@@ -12,25 +12,25 @@ inputs:
     description: 'username MSSQL DB Server'
     required: True
     sensitive: True
-    value: 'sa'
+    value: ''
 
   - name: password
     description: 'password MSSQL DB Server'
     required: True
     sensitive: True
-    value: 'Vagrant42'
+    value: ''
 
   - name: host
     description: 'hostname MSSQL DB Server'
     required: True
     sensitive: True
-    value: 'WIN-M0DON71OD11'
+    value: 'host_name'
 
   - name: instance
     description: 'instance name MSSQL DB Server'
     required: True
     sensitive: True
-    value: 'MSSQLSERVER'
+    value: 'instance_name'
 
   - name: port
     description: 'port MSSQL DB Server'
