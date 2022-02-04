@@ -1,0 +1,40 @@
+name: sql_baseline_name
+title: sql_baseline_title
+summary: "MS SQL 2017 Baseline"
+
+inputs:
+  - name: sql_version
+    description: 'Latest stable version of MSSQL DB Server'
+    required: True
+    value: 14.0.3421.10
+
+  - name: user
+    description: 'username MSSQL DB Server'
+    required: True
+    sensitive: True
+    value: 'sa'
+
+  - name: password
+    description: 'password MSSQL DB Server'
+    required: True
+    sensitive: True
+    value: 'Vagrant42'
+
+  - name: host
+    description: 'hostname MSSQL DB Server'
+    required: True
+    sensitive: True
+    value: 'WIN-M0DON71OD11'
+
+  - name: instance
+    description: 'instance name MSSQL DB Server'
+    required: True
+    sensitive: True
+    value: 'MSSQLSERVER'
+
+  - name: port
+    description: 'port MSSQL DB Server'
+    type: numeric
+    value: 1433
+    required: True
+    sensitive: True
